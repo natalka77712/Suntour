@@ -1,0 +1,39 @@
+@font-face {
+  font-family: "Arial";
+  src: local("Arial"),
+    url("../fonts/arial.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Arial";
+  src: local("Arial"),
+    url("../fonts/arial-bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Arial";
+  src: local("Arial"),
+    url("../fonts/arial-italic.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Trebuchet MS";
+  src: local("Trebuchet MS"),
+    url("../fonts/trebuchet.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Trebuchet MS";
+  src: local("Trebuchet MS"),
+    url("../fonts/trebuchet-bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}

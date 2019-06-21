@@ -1,0 +1,221 @@
+.promo {
+  position: relative;
+
+  .promo__image {
+    display: block;
+  }
+
+  &::after {
+    top: 270px;
+    left: 20px;
+    padding-top: 149px;
+    content: "код тура";
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+    background-color: rgba(255, 242, 0, 0.7);
+  }
+
+  &::before {
+    top: 315px;
+    left: 60px;
+    content: "Тур\0a в Созополь,\0a Болгария";
+    width: 169px;
+    font-size: 25px;
+    line-height: 29px;
+    z-index: 2;
+    white-space: pre;
+  }
+}
+
+.promo::after,
+.promo::before,
+.promo__image-link::before {
+  position: absolute;
+  font-weight: 700;
+  font-family: "Trebuchet MS", sans-serif;
+  text-align: center;
+}
+
+.promo__image-link {
+  position: relative;
+
+  &::before {
+    top: 440px;
+    left: 95px;
+    content: "3094119";
+    width: 99px;
+    height: 28px;
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: uppercase;
+    color: white;
+    background-color: black;
+    z-index: 2;
+  }
+
+  &::after {
+    left: 619px;
+    bottom: 0;
+    position: absolute;
+    content: "";
+    width: 422px;
+    height: 65px;
+    background: url("../img/triangle.svg") no-repeat center;
+    background-size: cover;
+    z-index: 2;
+  }
+}
+
+.promo__wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.promo__inner {
+  margin-top: 23px;
+  margin-bottom: 56px;
+  flex: 0 0 570px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.promo__hotel,
+.promo__trip {
+  display: inline-block;
+  margin-right: 20px;
+  color: black;
+  text-decoration: none;
+  border-bottom: 1px solid $grey;
+
+  &:hover {
+    color: $red;
+  }
+}
+
+.promo__rating {
+  margin-right: 20px;
+}
+
+.promo__price,
+.promo__hotel,
+.promo__trip {
+  font-size: 35px;
+  line-height: 41px;
+  font-weight: 700;
+  font-family: "Trebuchet MS", sans-serif;
+}
+
+.promo__rating-info {
+  margin: 0 35px 0 0;
+  width: 90px;
+  line-height: 16px;
+}
+
+.promo__mark {
+  margin-right: 24px;
+  padding: 12px 9px;
+  width: 52px;
+  height: 52px;
+  font-size: 24px;
+  line-height: 28px;
+  font-family: "Trebuchet MS", sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  color: white;
+  background-color: $light-blue;
+}
+
+.promo__rating-wrapper {
+  margin-top: 31px;
+}
+
+.promo__rating-item,
+.promo__rating-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.promo__rating-item {
+  margin: 0;
+  padding-right: 16px;
+  flex-direction: column;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.promo__rating-item b {
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.05em;
+}
+
+.promo__inner-second {
+  margin-left: 222px;
+  margin-top: -22px;
+  z-index: 2;
+}
+
+.promo__count {
+  font-size: 88px;
+  line-height: 102px;
+  color: $dark-grey;
+  text-transform: uppercase;
+}
+
+.promo__hot {
+  margin: 0;
+  width: 160px;
+  font-size: 30px;
+  line-height: 31px;
+}
+
+.promo__list {
+  @include reset-list;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.promo__item {
+  flex: 0 0 500px;
+}
+
+.promo__item-img {
+  display: block;
+  width: 500px;
+  height: 280px;
+}
+
+.promo__trip-wrap {
+  margin-top: 24px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.promo__trip-desc {
+  margin: 11px 0 0;
+}
+
+.promo__price-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.promo__old-price {
+  font-size: 20px;
+  line-height: 23px;
+  font-family: "Trebuchet MS", sans-serif;
+  color: $dark-grey;
+}

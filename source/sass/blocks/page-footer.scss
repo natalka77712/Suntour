@@ -1,0 +1,25 @@
+.page-footer__container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 16px 0;
+  border-top: 1px solid $dark-grey;
+}
+
+.page-footer__social {
+  @include reset-list;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.page-footer__copyright {
+  margin: 0;
+  font-size: 12px;
+  line-height: 17px;
+}
+
+.page__footer__copyright-link {
+  color: $light-blue;
+}

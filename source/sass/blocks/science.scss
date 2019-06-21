@@ -1,0 +1,138 @@
+.science {
+  margin-top: 67px;
+  margin-bottom: 44px;
+}
+
+.science__inner {
+  display: flex;
+  flex-direction: row;
+}
+
+.science__wrapper {
+  flex: 0 0 776px;
+}
+
+.science__title {
+  margin: 0 0 27px;
+  font-size: 50px;
+  line-height: 52px;
+  font-family: "Trebuchet MS", sans-serif;
+}
+
+.science__cell {
+  margin: 20px 0 24px 0;
+}
+
+.science__header {
+  margin: 0 0 5px;
+  font-size: 22px;
+  line-height: 25px;
+}
+
+.science__heat-capacity {
+  margin: 0 0 36px;
+}
+
+.science__capacity-definition {
+  position: relative;
+  margin: 0 0 36px 72px;
+  width: 704px;
+  font-style: italic;
+
+  &::before {
+    position: absolute;
+    left: -33px;
+    top: -10px;
+    content: "";
+    width: 8px;
+    height: 120px;
+    background-color: $light-blue;
+  }
+}
+
+.science__energy-consumption {
+  margin: 0 0 19px;
+}
+
+.science__caption {
+  margin: 0 0 6px;
+  font-size: 16px;
+  line-height: 18px;
+}
+
+.science__evolution-colors,
+.science__photosynthesis-process {
+  margin: 0 0 20px;
+}
+
+.science__beauty-concept {
+  margin: 0 0 31px;
+}
+
+.science__table {
+  width: 776px;
+  border-collapse: collapse;
+}
+
+.science__table-title {
+  line-height: 16px;
+}
+
+.science__table-row--grey {
+  background-color: rgba(119, 119, 119, 0.2);
+}
+
+.science__table-caption {
+  padding: 10px;
+  text-align: left;
+  white-space: nowrap;
+
+  &--last {
+    padding-right: 138px;
+  }
+}
+
+.science__table-title,
+.science__table-cell {
+  padding: 14px 10px 0;
+  white-space: nowrap;
+}
+
+.science__detalization {
+  margin: 31px 0 3px;
+}
+
+.science__list {
+  @include reset-list;
+}
+
+.science__item {
+  margin-bottom: 5px;
+}
+
+.science__indicator-wrapper {
+  margin-top: 151px;
+  margin-left: 23px;
+}
+
+.science__indicator {
+  font-size: 100px;
+  line-height: 116px;
+  letter-spacing: -0.05em;
+  color: $dark-grey;
+}
+
+.science__indicator-name {
+  margin: 0 0 8px;
+  font-size: 30px;
+  line-height: 31px;
+}
+
+.science__indicator-desc {
+  display: inline-block;
+  vertical-align: middle;
+  width: 224px;
+  font-size: 20px;
+  line-height: 25px;
+  color: #777777;
+}

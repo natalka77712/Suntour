@@ -1,0 +1,48 @@
+.page-header {
+  background-color: $light-blue;
+  margin-bottom: 24px;
+}
+
+.page-header__container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.page-header__logo-link {
+  padding: 30px 21px 30px 0;
+}
+
+.page-header__about-company {
+  margin: 0 178px 0 0;
+  padding-top: 10px;
+  width: 150px;
+  font-size: 16px;
+  line-height: 18px;
+  color: white;
+}
+
+.page-header__phone {
+  margin-right: 26px;
+  font-size: 30px;
+  line-height: 34px;
+  color: white;
+  text-decoration: none;
+}
+
+.page-header__phone-link {
+  margin-right: 47px;
+  font-size: 16px;
+  line-height: 18px;
+  color: white;
+  text-decoration: none;
+  border-bottom: 1px dotted white;
+}
+
+.page-header__social {
+  @include reset-list;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}

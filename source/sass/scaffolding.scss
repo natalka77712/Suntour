@@ -10,11 +10,11 @@ html {
 
 body {
   margin: 0 auto;
-  font-family: "RotondaC", "Arial", sans-serif;
+  font-family: "Arial", sans-serif;
   font-size: 14px;
-  line-height: 18px;
+  line-height: 19px;
   font-weight: 400;
-  color: $color-base-text;
+  color: black;
 }
 
 img {
@@ -34,8 +34,6 @@ img {
 }
 
 .container {
-  width: 300px;
+  width: 1040px;
   margin: 0 auto;
-  padding-left: 18px;
-  padding-right: 18px;
 }
