@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  padding: 16px 0;
+  padding: 16px 20px;
   border-top: 1px solid $dark-grey;
 }
 
@@ -15,11 +15,17 @@
 }
 
 .page-footer__copyright {
-  margin: 0;
+  margin: 0 0 5px;
   font-size: 12px;
   line-height: 17px;
 }
 
 .page__footer__copyright-link {
   color: $light-blue;
+}
+
+@media (min-width: $desktop-width) {
+  .page-footer__copyright {
+    margin: 0;
+  }
 }
