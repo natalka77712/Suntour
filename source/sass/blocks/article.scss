@@ -1,0 +1,157 @@
+.article {
+  margin: 20px 0;
+}
+
+.article__inner {
+  display: flex;
+  flex-direction: row;
+}
+
+.article__title {
+  margin: 0 0 20px;
+  font-size: 26px;
+  line-height: 28px;
+  font-family: "Trebuchet MS", sans-serif;
+}
+
+.article__cell {
+  margin: 20px 0 24px 0;
+}
+
+.article__header {
+  margin: 0 0 5px;
+  font-size: 22px;
+  line-height: 25px;
+}
+
+.article__heat-capacity {
+  margin: 0 0 36px;
+}
+
+.article__capacity-definition {
+  margin: 17px 0 20px 5px;
+  padding: 5px 0 10px 14px;
+  font-style: italic;
+  border-left: 8px solid $light-blue;
+}
+
+.article__energy-consumption {
+  margin: 0 0 19px;
+}
+
+.article__caption {
+  margin: 0 0 6px;
+  font-size: 16px;
+  line-height: 18px;
+}
+
+.article__evolution-colors,
+.article__photosynthesis-process {
+  margin: 0 0 20px;
+}
+
+.article__beauty-concept {
+  margin: 0 0 31px;
+}
+
+.article__table {
+  display: none;
+}
+
+.article__detalization {
+  margin: 31px 0 3px;
+}
+
+.article__list {
+  @include reset-list;
+}
+
+.article__item {
+  margin-bottom: 5px;
+}
+
+.article__indicator-wrapper {
+  display: none;
+}
+
+@media (min-width: $desktop-width) {
+  .article {
+    margin-top: 67px;
+    margin-bottom: 44px;
+  }
+
+  .article__title {
+    margin: 0 0 27px;
+    font-size: 50px;
+    line-height: 52px;
+  }
+
+  .article__wrapper {
+    flex: 0 0 776px;
+  }
+
+  .article__capacity-definition {
+    margin: 0 0 36px 50px;
+    width: 704px;
+    font-style: italic;
+    border-left: 8px solid $light-blue;
+  }
+
+  .article__table {
+    display: table;
+    width: 776px;
+    border-collapse: collapse;
+  }
+
+  .article__table-title {
+    line-height: 16px;
+  }
+
+  .article__table-row--grey {
+    background-color: rgba(119, 119, 119, 0.2);
+  }
+
+  .article__table-caption {
+    padding: 10px;
+    text-align: left;
+    white-space: nowrap;
+
+    &--last {
+      padding-right: 138px;
+    }
+  }
+
+  .article__table-title,
+  .article__table-cell {
+    padding: 14px 10px 0;
+    white-space: nowrap;
+  }
+
+  .article__indicator-wrapper {
+    display: block;
+    margin-top: 151px;
+    margin-left: 23px;
+  }
+
+  .article__indicator {
+    font-size: 100px;
+    line-height: 116px;
+    letter-spacing: -0.05em;
+    color: $dark-grey;
+  }
+
+  .article__indicator-name {
+    margin: 0 0 8px;
+    font-size: 30px;
+    line-height: 31px;
+  }
+
+  .article__indicator-desc {
+    display: inline-block;
+    vertical-align: middle;
+    width: 224px;
+    font-size: 20px;
+    line-height: 25px;
+    color: #777777;
+  }
+}
